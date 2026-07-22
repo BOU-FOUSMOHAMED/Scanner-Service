@@ -18,6 +18,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping(ApiConstants.BASE_PATH + ApiConstants.RESULTS_PATH)
+@CorssOrigin(origins = "*", allowedHeaders = "*")
 public class ScanResultController {
 
     private final ScanResultService scanResultService;
