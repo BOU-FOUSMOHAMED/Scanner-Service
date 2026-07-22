@@ -6,7 +6,7 @@
   },
   "deploy": {
   
-    "startCommand": "java -jar target/Scanner-Service-0.0.1-SNAPSHOT.jar"
+    "startCommand": "java -jar target/Scanner-Service-0.0.1-SNAPSHOT.jar",
     "healthcheckPath": "/actuator/health",
     "healthcheckTimeout": 30
   }
