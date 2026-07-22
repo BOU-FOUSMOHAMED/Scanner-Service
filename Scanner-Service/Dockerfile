@@ -22,3 +22,8 @@ FROM eclipse-temurin:25-jre
 
 
 ENTRYPOINT ["java","-jar","app.jar"]
+
+
+
+# ./mvnw clean package
+# java -jar target/*.jar
