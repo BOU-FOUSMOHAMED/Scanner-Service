@@ -23,7 +23,7 @@ import java.util.UUID;
 @RequestMapping(ApiConstants.BASE_PATH)
 public class ScanTargetController {
  
-    
+
     private final ScanTargetService scanTargetService;
 
     public ScanTargetController(ScanTargetService scanTargetService) {
